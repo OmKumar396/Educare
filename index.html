@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+  <script>
+    $(document).ready(function() {
+      $('#cs').click(function() {
+        var totalMarks=parseFloat($('#total').val());
+        var Maths=parseFloat($('#Math').val());
+        var phys=parseFloat($('#phys').val());
+        var chem=parseFloat($('#chem').val());
+        var bio=parseFloat($('#bio').val());
+        var physi=parseFloat($('#physi').val());
+       var obtainedmarks=(Maths+phys+chem+bio+physi);
+        var total=(obtainedmarks/totalMarks*100);
+        document.getElementById('result').innerHTML = 'Percentage: ' +total+ '%';
+      });
+    });
+  </script>
+  
+</head>
+<body>
+    <h1>Educare</h1>
+   
+       <div id="hola">
+        <div class="dropdown">
+          <button data-toggle="dropdown">Class
+         </button>
+          <ul class="dropdown-menu" id="p">
+            <li><a href="Class9.html" id="class">Class:09</a></li>
+            <li><a href="Class10.html"  id="class">Class:10</a></li>
+            <li><a href="Class11.html"  id="class">Class:11</a></li>
+            <li><a href="Class12.html"  id="class">Class:12</a></li>
+          </ul>
+          </div>
+          <div class="dropdown">
+            <button data-toggle="dropdown">Books
+           </button>
+            <ul class="dropdown-menu" id="p">
+           
+                <li><a href="Books9.html" id="class" target="_blank">Class:09</a></li>
+              <li><a href="Books10.html"  id="class" target="_blank">Class:10</a></li>
+              <li><a href="Books11.html"  id="class" target="_blank">Class:11</a></li>
+              <li><a href="Books12.html"  id="class" target="_blank">Class:12</a></li>
+            </ul>
+            </div>
+            <div class="dropdown">
+                <button data-toggle="dropdown">Sample Papers
+               </button>
+                <ul class="dropdown-menu" id="p">
+                  <li><a href="Samplepaper09.html"  id="class" target="_blank">Sample Paper Class:09</a></li>
+                  <li><a href="Samplepaper10.html"  id="class" target="_blank">Sample Paper Class:10</a></li>
+                  <li><a href="Samplepaper11.html"  id="class" target="_blank">Sample Paper Class:11</a></li>
+                  <li><a href="Samplepaper12.html"  id="class" target="_blank">Sample Paper Class:12</a></li>
+                </ul>
+                </div>
+                <div class="dropdown">
+                    <button data-toggle="dropdown">Ncert Solution
+                   </button>
+                    <ul class="dropdown-menu" id="p">
+                      <li><a href="Ncertclass9.html" id="class" target="_blank"> Ncert Class:09</a></li>
+                      <li><a href="Ncertclass10.html"  id="class" target="_blank">Ncert Class:10</a></li>
+                      <li><a href="Ncertclass11.html"  id="class" target="_blank">Ncert Class:11</a></li>
+                      <li><a href="Ncertclass12.html"  id="class" target="_blank">Ncert Class:12</a></li>
+                    </ul>
+                    </div>
+                    <div class="dropdown">
+                        <button data-toggle="dropdown">PYQS
+                        </button>
+                         <ul class="dropdown-menu" >
+                           <li><a href="PYQS09.html" id="class" target="_blank"> PYQS Class:09</a></li>
+                           <li><a href="PYQS10.html"  id="class" target="_blank">PYQS Class:10</a></li>
+                           <li><a href="PYQS11.html"  id="class" target="_blank">PYQS Class:11</a></li>
+                           <li><a href="PYQS12.html"  id="class" target="_blank">PYQS Class:12</a></li>
+                    </div>
+                    <div id="ok">
+                            <a href="https://chat.openai.com/auth/login" id="o" target="_blank">ChatGpt</a>
+                    </div>
+                </div>
+                    <h1 id="pt">Welocome to Educare!</h1>
+                    <p id="para">Welcome to Educare , where learning knows no bounds. Our platform is designed to empower individuals of all ages on their educational journey. Whether you're a student seeking academic support, a teacher looking for innovative resources, or an enthusiast eager to explore new topics, we've got you covered.
+
+                    Embark on a journey of interactive learning , where theoretical concepts come to life through engaging multimedia content. Our team will Always Provide Best Content and our experts is dedicated to Provide you with comprehensive courses that cater to various subjects and skill levels.
+                
+                    Connect with our expert  Support team who are passionate about helping you achieve your academic goals. Whether it's mastering a difficult concept or preparing for exams, our support team are here to guide you every step of the way.
+                
+                    Ready to take the next step in your educational journey? Join Educare today and unlock a world of knowledge and possibilities.</p>
+                  </div>
+                  <h1 id="pl">Contents</h1>
+                  <h1 id="pc">Class:09</h1>
+                  <p id="pi"><strong>Subjects:</strong>Maths,Science,Social Science,Hindi,English,Sanskrit .</p>
+                  <h1 id="pj">Latest Syllabus</h1>
+                 <table>
+                     <tr>
+                        <th>Subjects
+                        </th>
+                        <th>
+                            Syllabus
+                        </th>
+
+                     </tr>
+                     <tr>
+                        <td>
+                            MATHS
+                        </td>
+                        <td>
+                         <a href="MathsClass9.pdf">Maths PDF</a>  
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>
+                            SCIENCE
+                        </td>
+                        <td>
+                         <a href="Science9.pdf">Science PDF</a>  
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>
+                            SOCIAL SCIENCE
+                        </td>
+                        <td>
+                         <a href="SocialScience9.pdf">SocialScience PDF</a>  
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>
+                           HINDI
+                        </td>
+                        <td>
+                         <a href="HindiA9.pdf">HINDI-A PDF</a><br>
+                          <a href="HindiB9.pdf">HINDI-B PDF</a>  
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>ENGLISH
+                        </td>
+                        <td>
+                         <a href="ENGLISHCOM9.pdf">ENGLISH COMMUCATION PDF</a><br>  
+                         <a href="ENGLISHLIT9.pdf">ENGLISH LIT & LANG PDF</a>  
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>
+                            SANSKRIT
+                            </td>
+                        <td>
+                         <a href="Sanskrit9.pdf">SANSKRIT PDF</a>  
+                        </td>
+                     </tr>
+                 </table>
+                  
+                <h1 id="pc">Class:10</h1>   
+                <p id="pi"><strong>Subjects:</strong>Maths,Science,Social Science,Hindi,English,Sanskrit .</p>
+                <h1 id="pj">Latest Syllabus</h1>
+                <table>
+                    <tr>
+                       <th>Subjects
+                       </th>
+                       <th>
+                           Syllabus
+                       </th>
+
+                    </tr>
+                    <tr>
+                       <td>
+                           MATHS
+                       </td>
+                       <td>
+                        <a href="MathsClass9.pdf">Maths PDF</a>  
+                       </td>
+                    </tr>
+                    <tr>
+                       <td>
+                           SCIENCE
+                       </td>
+                       <td>
+                        <a href="Science9.pdf">Science PDF</a>  
+                       </td>
+                    </tr>
+                    <tr>
+                       <td>
+                           SOCIAL SCIENCE
+                       </td>
+                       <td>
+                        <a href="SocialScience9.pdf">SocialScience PDF</a>  
+                       </td>
+                    </tr>
+                    <tr>
+                       <td>
+                          HINDI
+                       </td>
+                       <td>
+                        <a href="HindiA9.pdf">HINDI-A PDF</a><br>
+                         <a href="HindiB9.pdf">HINDI-B PDF</a>  
+                       </td>
+                    </tr>
+                    <tr>
+                       <td>ENGLISH
+                       </td>
+                       <td>
+                        <a href="ENGLISHCOM9.pdf">ENGLISH COMMUCATION PDF</a><br>  
+                        <a href="ENGLISHLIT9.pdf">ENGLISH LIT & LANG PDF</a>  
+                       </td>
+                    </tr>
+                    <tr>
+                       <td>
+                           SANSKRIT
+                           </td>
+                       <td>
+                        <a href="Sanskrit9.pdf">SANSKRIT PDF</a>  
+                       </td>
+                    </tr>
+                </table>
+                <h1 id="pc">Class:11</h1>   
+                <p id="pi"><strong>Subjects:</strong>Physics,Chemistry,Maths,Biology,Hindi,English,Accountancy,Economics.<br>
+                       Business Studies,Computer Science,Physical Education</p>
+                <h1 id="pj">Latest Syllabus</h1>
+                <table>
+                    <tr>
+                       <th>Subjects
+                       </th>
+                       <th>
+                           Syllabus
+                       </th>
+
+                    </tr>
+                    <tr>
+                       <td>
+                           MATHS
+                       </td>
+                       <td>
+                        <a href="Maths11.pdf">MATHS PDF</a>  
+                       </td>
+                    </tr>
+                    <tr>
+                       <td>
+                           PHYSICS
+                       </td>
+                       <td>
+                        <a href="Physics11.pdf">PHYSICS PDF</a>  
+                       </td>
+                    </tr>
+                    <tr>
+                       <td>
+                           CHEMISTRY
+                       </td>
+                       <td>
+                        <a href="Chemistry11.pdf">CHEMISTRY PDF</a>  
+                       </td>
+                    </tr>
+                    <tr>
+                       <td>
+                          BIOLOGY
+                       </td>
+                       <td>
+                        <a href="Biology11.pdf">BIOLOGY PDF</a>  
+                       </td>
+                    </tr>
+                    <tr>
+                       <td>ENGLISH
+                       </td>
+                       <td>
+                        <a href="English11.pdf">ENGLISH PDF</a> 
+                       </td>
+                    </tr>
+                    <tr>
+                       <td>
+                          ACCOUNTANCY
+                           </td>
+                       <td>
+                        <a href="Accountancy11.pdf">ACCOUNTANCY PDF</a>  
+                       </td>
+                    </tr>
+                    <tr>
+                        <td>
+                           BUSINESS STUDIES
+                            </td>
+                        <td>
+                         <a href="Business Studies11.pdf">BUSINESS STUDIES PDF</a>  
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>
+                           COMPUTER SCIENCE
+                            </td>
+                        <td>
+                         <a href="ComputerScience11.pdf">COMPUTER SCIENCE PDF</a>  
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>
+                           PHYSICAL EDUCATION
+                            </td>
+                        <td>
+                         <a href="Physical Education 11.pdf">PHYSICAL EDUCATION PDF</a>  
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>
+                           ECONOMICS
+                            </td>
+                        <td>
+                         <a href="Economics11.pdf">ECONOMICS PDF</a>  
+                        </td>
+                     </tr>
+                </table>
+                <h1 id="pc">Class:12</h1>   
+                <p id="pi"><strong>Subjects:</strong>Maths,Physics,Chemistry,Biology,Accountancy
+                    Business Studies,Computer Science,Physical Education,Economics,Hindi,English,Sanskrit.</p>
+                <h1 id="pj">Latest Syllabus</h1>
+                <table>
+                    <tr>
+                       <th>Subjects
+                       </th>
+                       <th>
+                           Syllabus
+                       </th>
+
+                    </tr>
+                    <tr>
+                       <td>
+                           MATHS
+                       </td>
+                       <td>
+                        <a href="Maths11.pdf">MATHS PDF</a>  
+                       </td>
+                    </tr>
+                    <tr>
+                       <td>
+                           PHYSICS
+                       </td>
+                       <td>
+                        <a href="Physics11.pdf">PHYSICS PDF</a>  
+                       </td>
+                    </tr>
+                    <tr>
+                       <td>
+                           CHEMISTRY
+                       </td>
+                       <td>
+                        <a href="Chemistry11.pdf">CHEMISTRY PDF</a>  
+                       </td>
+                    </tr>
+                    <tr>
+                       <td>
+                          BIOLOGY
+                       </td>
+                       <td>
+                        <a href="Biology11.pdf">BIOLOGY PDF</a>  
+                       </td>
+                    </tr>
+                    <tr>
+                       <td>ENGLISH
+                       </td>
+                       <td>
+                        <a href="English11.pdf">ENGLISH PDF</a> 
+                       </td>
+                    </tr>
+                    <tr>
+                       <td>
+                          ACCOUNTANCY
+                           </td>
+                       <td>
+                        <a href="Accountancy11.pdf">ACCOUNTANCY PDF</a>  
+                       </td>
+                    </tr>
+                    <tr>
+                        <td>
+                           BUSINESS STUDIES
+                            </td>
+                        <td>
+                         <a href="Business Studies11.pdf">BUSINESS STUDIES PDF</a>  
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>
+                           COMPUTER SCIENCE
+                            </td>
+                        <td>
+                         <a href="ComputerScience11.pdf">COMPUTER SCIENCE PDF</a>  
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>
+                           PHYSICAL EDUCATION
+                            </td>
+                        <td>
+                         <a href="Physical Education 11.pdf">PHYSICAL EDUCATION PDF</a>  
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>
+                           ECONOMICS
+                            </td>
+                        <td>
+                         <a href="Economics11.pdf">ECONOMICS PDF</a>  
+                        </td>
+                     </tr>
+                </table>
+                <h1 id="pc">
+                    
+                </h1>
+                 <h1 id="pc">
+                   Important Links
+                 </h1>
+                 <div id="pli">
+                   <p id="t"><b>Cbse Curriculum 2023-24:</b></p>
+                    <a href="https://cbseacademic.nic.in/curriculum_2024.html" id="b">Cbse Curriculum</a>
+                   <p id="t"><b>Cbse DateSheet: X and XII</b></p>
+                     <a href="Cbse10.pdf" id="b">Cbse X</a><br>
+                     <a href="cbse12.pdf" id="b">Cbse XII</a>
+                    <p id="t"><b>Cbse Scholarship:</b></p>
+                    <a href="https://www.cbse.gov.in/cbsenew/scholar.html" id="b">Scholarship</a>
+                    <p id="t"><b>Cbse Result:</b></p>
+                     <a href="https://results.cbse.nic.in/" id="b">Result</a>
+                    </div>
+                    <h1 id="pc">Cbse Practice Question</h1>
+                     <h1 id="pj">Class:10</h1>
+                    <table>
+                    <tr><td><p>SCIENCE</p></td>
+                    <td><a href="Science10.pdf">Science</a></td></tr>
+                    <tr><td><P>MATHS</P></td>
+                    <td><a href="Mathematics-PQ.pdf">Maths</a></td></tr>
+                    <tr><td><p>SOCIAL SCIENCE</p></td>
+                    <td><a href="SS-PQ.pdf">SocialScience</a></td></tr>
+                    <tr><td><P>HINDI</P></td>
+                    <td><a href="HindiA-PQ.pdf">HINDI-A</a><br>
+                    <a href="HindiB-PQ.pdf">HINDI-B</a></td></tr>
+                    <tr><td><p>ENGLISH</p></td>
+                   <td><a href="English-PQ.pdf">ENGLISH COM</a><br>
+                    <a href="English-PQ.pdf">ENGLISH LIT</a></td></tr>
+                    </table>
+                    <h1 id="pj">Class:12</h1>
+                    <table>
+                   <tr><td><p>MATHS</p></td>
+                    <td><a href="Maths-PQ12.pdf">Maths</a></td></tr>
+                   <tr><td><p>PHYSICS</p></td>
+                    <td><a href="Physics-PQ.pdf">Physics</a></td></tr>
+                    <tr><td><p>CHEMISTRY</p></td>
+                    <td><a href="Chemistry-PQ.pdf">Chemistry</a></td></tr>
+                    <tr><td><p>BIOLOGY</p></td>
+                    <td><a href="Biology-PQ.pdf">Biology</a></td></tr>
+                    <tr><td><p>ACCOUNTANCY</p></td>
+                    <td><a href="Accountancy-PQ.pdf">Accountancy</a></td></tr>
+                    <tr><td><p>BUSINESS STUDIES</p></td>
+                    <td><a href="BST_PQ.pdf">Business Studies</a></td></tr>
+                    <tr><td><p>COMPUTER SCIENCE</p></td>
+                    <td><a href="CS_PQ.pdf">Computer Science</a></td></tr>
+                    <tr><td><p>ECONOMICS</p></td>
+                    <td><a href="Economics_PQ.pdf">Economics</a></td></tr>
+                </table>
+                <h1 id="pc">Percentage Calculator</h1>
+                <div id="calculator">
+                    <h2 id="pv"><b>Percentage Calculator:</b></h2>
+                    <label for="total">Total Marks:</label>
+                    <input type="number" id="total" placeholder="Enter total marks">
+                
+                    <label for="Maths">1st Subject Marks:</label>
+                    <input type="number" id="Math" placeholder="Enter obtained marks">
+                    
+                    <label for="phys">2nd Subject Marks:</label>
+                    <input type="number" id="phys" placeholder="Enter obtained marks">
+                    
+                    <label for="chem">3rd Subject Marks:</label>
+                    <input type="number" id="chem" placeholder="Enter obtained marks">
+                    
+                    <label for="bio">4th Subject Marks:</label>
+                    <input type="number" id="bio" placeholder="Enter obtained marks">
+                    
+                    <label for="physi">5th Subject Marks:</label>
+                    <input type="number" id="physi" placeholder="Enter obtained marks">
+                
+                    <button id="cs">Calculate Percentage</button>
+                 
+                    <div id="result"></div>
+                  </div>
+                  
+                  <footer>   
+                    <a href="faq.html">FAQ</a>
+                    <a href="privacypolicy.html">Privacy Policy</a>
+                     <a href="Aboutus.html">About Us</a>
+                    <a href="contactus.html">Contact us</a>
+                    <p id="ip">&copy;2023 Educare. All rights reserved.</p>
+                   </footer>
+          
+
+
+</body>
+</html>

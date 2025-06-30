@@ -1,0 +1,212 @@
+h1{
+    text-align: center;
+    color:white;
+    background-color: gray;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 15px;
+    font-size:50px;
+    font-family:serif;
+}
+
+#w{
+color: white;
+font-size:20px;
+font-family: serif;
+margin: 0px 40px;
+text-decoration:none;
+}
+button{
+    background-color: black;
+    border: none;
+    color: white;
+    font-size:20px;
+    font-family: serif;
+    margin-top:-10px;
+}
+body{
+    margin: 0%;
+    background-color: aliceblue;
+}
+input{
+    font-family: serif;
+    margin-left: 200px;
+}
+#class{
+    color:rgb(12, 44, 201);
+    font-size: 20px;
+    font-family:serif;
+    
+}
+#class:hover{
+    background-color:rgb(249, 25, 0);
+}
+
+.dropdown{
+    float:left;
+    padding:9px 40px;
+}
+#pt{
+    text-align: center;
+    background-color:gray;
+    color: white;
+    margin:40px 0px;
+    padding:0px ;
+    font-size:50px;
+
+
+}
+#pl{
+    text-align: center;
+    background-color:black;
+    color: white;
+    margin:40px 0px;
+    padding:0px ;
+    font-size:50px;
+}
+#para{
+    font-size:30px;
+    text-align:justify;
+    margin-left:10px;
+    margin-right:10px;
+    font-family: serif;
+    color: rgb(72, 49, 49);
+}
+
+table,td,tr,th{
+    border:2px solid black;
+}
+#pc{
+    background-color:blueviolet;
+    font-size: 30px;
+    padding:0px;
+}
+#pj{
+    background-color:rgb(48, 47, 47);
+    font-size: 30px;
+    padding:0px; 
+    margin-top:10px;
+}
+#pi{
+    font-size: 40px;
+    margin-top: 10px;
+    outline-style:inset;
+    margin: 10px 10px;
+    outline-width: 5px;
+    outline-color: rgb(80, 80, 109);
+}
+strong{
+    color:rgb(132, 11, 11);
+}
+table{
+    margin-left:300px;
+    width:60%;
+    text-align: center;
+    font-size:30px;
+    margin-top: 10px;
+    margin-bottom:10px;
+}
+th{
+    text-align: center;
+}
+#ip{
+  margin:-11px 0px;
+  text-align:right;
+  padding: 0px 0px;
+}
+#pli{
+    text-align: center;
+    font-size:30px;
+    background-color: aliceblue;
+    
+}
+a{
+    text-decoration: none;
+}
+#t{
+   color: green;
+}
+#b{
+    border:2px solid black;
+    background-color: chocolate;
+    color:white;
+    padding: 0px 20px;
+}
+#b:hover{
+    color:black;
+}
+footer{
+    background-color: black;
+    color:white;
+    font-size:15px;
+    padding: 11px 0px;
+}
+footer a{
+    margin:0px 10px;
+    color:white;
+    text-decoration: none;
+
+}
+tr:nth-child(even){
+    background-color: rgb(170, 170, 170);
+}
+#calculator {
+padding: 20px;
+border: 1px solid #ccc;
+border-radius: 5px;
+background-color: #fff;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+label {
+display: block;
+}
+
+#total,#Math,#phys,#chem,#bio,#physi{
+width: 100%;
+padding: 8px;
+margin-bottom: 10px;
+box-sizing: border-box;
+margin: 0px;
+
+}
+#cs{
+background-color: #4caf50;
+color: white;
+padding: 10px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+width: 100%;
+margin-top: 10px;
+
+}
+body{
+display:inline-block;
+}
+#result {
+margin-top: 20px;
+font-weight: bold;
+color: #fff;        
+background-color: cadetblue;
+}
+#pv{
+font-size:30px;
+}
+#hola{
+background-color: black;
+padding:10px 0px;
+
+}
+#o{
+border: none;
+   text-decoration: none;
+    color: white;
+    font-size:20px;
+    font-family: serif;
+    margin:20px;
+}
+#ok{
+padding: 2px 0px;
+}
